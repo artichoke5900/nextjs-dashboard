@@ -16,3 +16,14 @@ input[type='number']::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
+
+@font-face {
+  font-family: 'Jersey25';
+  src: url('/fonts/Jersey25-Regular.ttf') format('truetype'); /* Adjust the path and format */
+  font-weight: normal;
+  font-style: normal;
+}
+
+.drop-shadow-bottom-right-white {
+  filter: drop-shadow(4px 4px 4px rgba(255, 255, 255, 1)); /* White shadow with 0.7 opacity */
+}
