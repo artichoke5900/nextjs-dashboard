@@ -32,13 +32,13 @@ export default function Page() {
             <span>Log in</span> <ArrowRightIcon className="w-5 md:w-6" />
           </Link>
           <Link
-            href="/dashboard"
-            className="flex items-center gap-5 self-start rounded-lg bg-white-500 px-6 py-3 text-sm font-medium text-black transition-colors hover:bg-blue-400 hover:text-white md:text-base"
+            href="/user-dashboard"
+            className="flex items-center gap-5 self-start rounded-lg bg-pink-200 px-6 py-3 text-sm font-medium text-black transition-colors hover:bg-white-400 hover:text-black md:text-base"
           >
             <span>Dashboard</span> <ArrowRightIcon className="w-5 md:w-6" />
           </Link>
           <Link
-            href="/home"
+            href="/login"
             className="flex items-center gap-5 self-start rounded-lg bg-white-500 px-6 py-3 text-sm font-medium text-black transition-colors hover:bg-pink-400 hover:text-white md:text-base"
           >
             <span>Streaktogether</span> <ArrowRightIcon className="w-5 md:w-6" />
